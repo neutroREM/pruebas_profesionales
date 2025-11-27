@@ -2,7 +2,10 @@ using certinom_sadper_v1.Data.Factories;
 using certinom_sadper_v1.Data.Repositories;
 using certinom_sadper_v1.Data.Repositories.Interfaces;
 using certinom_sadper_v1.Data.Services;
+using certinom_sadper_v1.Helper;
 using certinom_sadper_v1.Modelos.Settings;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using ServerAPP___RepositoresStrucutre___Example.Components;
 using System.Text;
 
@@ -145,7 +148,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddBlazoredSessionStorage();
+//builder.Services.AddBlazoredSessionStorage();
 
 builder.Services.AddHttpClient();
 

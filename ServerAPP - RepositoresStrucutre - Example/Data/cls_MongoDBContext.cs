@@ -2,7 +2,7 @@
 using MongoDB.Driver;
 using certinom_sadper_v1.Modelos.Settings;
 
-namespace certinom_sadper_v1.Data
+namespace ServerAPP___RepositoresStrucutre___Example.Data
 {
     public class cls_MongoDBContext
     {
